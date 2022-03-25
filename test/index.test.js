@@ -46,6 +46,6 @@ describe("css/paint.css", () => {
     );
     const hint =
       "You cannot alter paint.css at all! To reset it use 'git checkout css/paint.css'";
-    expect(fileData.size, hint).to.eq(1411);
+    expect(fileData.size, hint).to.eq(1478);
   });
 });
